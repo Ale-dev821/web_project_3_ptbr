@@ -1,0 +1,239 @@
+.page {
+    max-width: 1280px;
+    max-height: 7473px;
+    top: -6715px;
+    left: 9570px;
+    font-family: 'Inter', sans-serif;  
+    background-color: #2A2C2F;
+    overflow: hidden;
+}
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .logo_place_header {
+    width: 270px;
+    height: 70px;
+    top: 34px;
+    left: 505px;
+    position: absolute;
+  }
+  
+  .header__title {
+    width: 850px;
+    height: 200px;
+    top: 194px;
+    left: 215px;
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+  }
+  
+  .header__subtitle {
+    width: 720px;
+    height: 72px;
+    top: 426px;
+    left: 280px;    
+    position: absolute;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+  }
+
+  .header__main-illustration {
+    width: 984px;
+    height: 615px;
+    margin-top: 562px;
+    left: 148px;
+  }
+  .intro{
+    width: 1017px;
+    height: 516px;
+    top: 1269px;
+    left: 148px;
+  }
+  .title-intro{
+    width: 1017px;
+    height: 116px;
+    top: 1269px;
+    left: 148px;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  .text-quote{
+    width: 722px;
+    height: 136px;
+    top: 1425px;
+    left: 148px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  .author{
+    width: 720px;
+    height: 34px;
+    top: 1537px;
+    left: 148px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  .text-description{
+    width: 720px;
+    height: 182px;
+    top: 1603px;
+    left: 148px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  .photo-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    width: 1184px;
+    top: 1877px;
+    margin: 70px auto;
+  }
+  .gallery__image{
+    width: 100%;
+    height: auto;
+  }
+  .places{
+    width: 987px;
+    height: 4098px;
+    top: 2411px;
+    left: 145px;
+    display: flex;
+  }
+  .cards{
+    list-style: none;
+    min-width:920px;
+    max-width: 984px;
+    height: 756px;
+    top: 3247px;
+    left: 148px;
+  }
+  .cards-item{
+    width: 984px;
+    height: 756px;
+    top: 2411px;
+    left: 148px;
+  }
+  .cards-image{
+    width: 460px;
+    height: 460px;
+    top: 2611px;
+    left: 148px;
+  }
+  .cards-title{
+    width: 460px;
+    height: 152px;
+    top: 2411px;
+    left: 148px;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  .cards-artist{
+    width: 58px;
+    height: 15px;
+    top: 2518px;
+    left: 648px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    color: #AAAAAA;
+  }
+  .cards-name{
+    width: 456px;
+    height: 22px;
+    top: 2541px;
+    left: 648px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;    
+  }
+  .cards-description{
+    width: 484px;
+    height: 203px;
+    top: 2611px;
+    left: 648px; 
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;  
+    flex: 1;  
+  }
+  .cards-link{
+    width: Hug (355px);
+    height: Hug (48px);
+    top: 3119px;
+    left: 148px;
+    padding: 13px 20px 13px 20px;
+    border-radius: 4px;
+    gap: 10px;
+    background: #0278FE;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 315px;
+    height: 22px;
+  }
