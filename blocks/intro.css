@@ -1,0 +1,49 @@
+.intro{
+    max-width: 1017px;
+    margin: auto;
+  }
+  .title-intro{
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin: 60px 0 0 0 ;
+  }
+  .text-quote{
+    max-width: 722px;
+    max-height: 136px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 30px 0 0 0 ;
+  }
+  .author{
+    max-width: 720px;
+    max-height: 34px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 15px 0 0 0;
+  }
+  .text-description{
+    max-width: 720px;
+    max-height: 182px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 24px 0 0 0 ;
+  }
