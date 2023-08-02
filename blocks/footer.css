@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 60px;
+  }
+  
+  /* Estilos para o texto do footer */
+  .footer-text {
+    width: 163px;
+    height: 16px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+  }
+  
