@@ -1,12 +1,35 @@
-.photo-grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    width: 1184px;
-    top: 1877px;
-    margin: 100px auto;
+body{
+    background-color: #2A2C2F;
   }
-  .gallery__image{
-    width: 100%;
-    height: auto;
-  }
+  .page {
+    font-family: 'Inter', sans-serif;
+    background-color: #2A2C2F;
+    min-width: 280px;
+    max-width: 1280px;
+    }
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        max-width: 1184px;
+        margin: 100px auto 0;
+      }
+      
+      .gallery-image {
+        width: 284px;
+        height: 213px;
+      }
+      
+      /* Responsivo: 2 imagens por linha */
+      @media (max-width: 1184px) {
+        .photo-grid {
+          grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+        }
+      }
+      
+      /* Responsivo: 1 imagem por linha */
+      @media (max-width: 480px) {
+        .photo-grid {
+          grid-template-columns: 1fr;
+        }
+      }
