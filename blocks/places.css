@@ -136,8 +136,3 @@ body{
           margin: 40px 0 0 0;
         }
       }
-      
-      /* Estilos para desktops */
-      @media (min-width: 1025px) {
-        /* Nenhum ajuste necessário para desktops, pois o código base já é adequado para essas telas */
-      }

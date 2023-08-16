@@ -432,10 +432,6 @@ main{
   }
 }
 
-/* Estilos para desktops */
-@media (min-width: 1025px) {
-  /* Nenhum ajuste necessário para desktops, pois o código base já é adequado para essas telas */
-}
 /* Estilos base para todas as telas */
 .cover {
   position: relative;
@@ -589,7 +585,7 @@ height: 60px;
 .footer-text {
 width: 163px;
 height: 16px;
-font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 16px;
