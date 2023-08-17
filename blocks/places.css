@@ -1,11 +1,27 @@
 body{
-    background-color: #2A2C2F;
-  }
+  background-color: #2A2C2F;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
   .page {
     font-family: 'Inter', sans-serif;
     background-color: #2A2C2F;
     min-width: 280px;
     max-width: 1280px;
+    }
+    main{
+      background-color: #2A2C2F;
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     .cards {
         list-style: none;
@@ -32,7 +48,7 @@ body{
       }
       
       .cards-title {
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-size: 72px;
         font-weight: 900;
         line-height: 76px;
@@ -51,7 +67,7 @@ body{
         padding: 13px 20px;
         border-radius: 4px;
         width: 315px;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-size: 18px;
         font-weight: 600;
         line-height: 22px;
@@ -71,7 +87,7 @@ body{
       
       .cards-artist {
         grid-area: artist;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-size: 12px;
         font-weight: 400;
         line-height: 15px;
@@ -83,7 +99,7 @@ body{
       
       .cards-name {
         grid-area: name;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-size: 18px;
         font-weight: 400;
         line-height: 22px;
@@ -94,7 +110,7 @@ body{
       }
       
       .cards-description {
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-size: 18px;
         font-weight: 400;
         line-height: 29.34px;
