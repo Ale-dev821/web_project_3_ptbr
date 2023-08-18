@@ -458,6 +458,7 @@ main{
   position: relative;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   max-width: 656px;
   max-height: 254px;
   top: 40%;
