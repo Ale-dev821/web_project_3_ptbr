@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #2A2C2F;
   font-family: 'Inter', sans-serif;
   display: flex;
@@ -8,44 +8,71 @@ body{
   min-height: 100vh;
   margin: 0;
 }
-  .page {
-    font-family: 'Inter', sans-serif;
-    background-color: #2A2C2F;
-    min-width: 280px;
-    max-width: 1280px;
-    }
-    main{
-      background-color: #2A2C2F;
-      padding: 20px;
-      border-radius: 10px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .photo-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 20px;
-        max-width: 1184px;
-        margin: 100px auto 0;
-      }
-      
-      .gallery-image {
-        width: 284px;
-        height: 213px;
-      }
-      
-      /* Responsivo: 2 imagens por linha */
-      @media (max-width: 1184px) {
-        .photo-grid {
-          grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-        }
-      }
-      
-      /* Responsivo: 1 imagem por linha */
-      @media (max-width: 480px) {
-        .photo-grid {
-          grid-template-columns: 1fr;
-        }
-      }
+
+.page {
+  font-family: 'Inter', sans-serif;
+  background-color: #2A2C2F;
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #2A2C2F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  max-width: 1184px;
+  margin: 100px auto 0;
+}
+
+.gallery-image {
+  width: 284px;
+  height: 213px;
+}
+
+/* Responsivo: 4 imagens por linha */
+@media (max-width: 1184px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  }
+}
+
+/* Responsivo: 2 imagens por linha em tablets */
+@media (min-width: 768px) and (max-width: 992px){
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(213px, 1fr));
+    grid-gap: 20px;
+    max-width: 768px;
+    margin: 50px auto 0;
+  }
+}
+
+/* Responsivo: 1 imagem por linha em smartphones */
+@media (max-width: 767px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    max-width: 300px;
+    margin: 30px auto 0;
+  }
+}
+/* Responsivo: 2 imagens por linha em tablets */
+@media (min-width:768px) and (max-width: 992px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
